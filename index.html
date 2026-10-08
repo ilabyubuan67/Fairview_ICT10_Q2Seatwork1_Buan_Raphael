@@ -32,20 +32,13 @@
             align-items: center;
             padding: 20px;
             font-family: Arial, sans-serif;
-            background: linear-gradient(
-                135deg,
-                #dbeafe,
-                #eff6ff
-            );
         }
 
         .container {
             width: 100%;
-            max-width: 500px;
             padding: 35px;
             border-radius: 18px;
             background-color: white;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
         }
 
         .header {
@@ -86,7 +79,7 @@
 
         input:focus {
             border-color: #2563eb;
-            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+         
         }
 
         button {
@@ -155,8 +148,8 @@
             >
         </div>
 
-        <button py-click="verify_candidate">
-            Verify Candidate
+        <button py-click="verify_member">
+            Verify Member
         </button>
 
         <div id="result">
@@ -164,12 +157,11 @@
         </div>
 
         <p class="footer">
-            ICT Club Candidate Verification System
+            ICT Club
         </p>
 
     </main>
 
-    <!-- Python file -->
     <script type="py" src="./main.py"></script>
 
 </body>
